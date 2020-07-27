@@ -1,0 +1,319 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>-->
+    <title>Popup Image</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/customStyle.css">
+   
+  </head>
+  <body>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">
+    <img src="img/logo.PNG" alt="logo" title="Puppygram" />
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <div class="form-group has-search" style="margin: auto;">
+        <span class="fa fa-search form-control-feedback"></span>
+        <input type="text" class="form-control" placeholder="Search">
+         </div>
+   
+    <form class="form-inline my-2 my-lg-0">
+      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#signupModal">upload</button>
+   <!-- Modal -->
+   &emsp;
+   <span><i class="fa fa-bell" aria-hidden="true"></i></span>
+   &emsp;
+   <span class="mb">MB</span>
+    </form>
+  </div>
+</nav>
+
+
+
+<div class="container page-top">
+<h1>TRENDING NOW</h1>
+
+
+        <div class="row">
+
+
+            <div class="col-lg-4 col-md-4 col-xs-6 thumb">
+                    <img  src="img/image1.jpg" onclick="showModel(this);" class="img-thumbnail "  alt="">
+            </div>
+            <div class="col-lg-4 col-md-4 col-xs-6 thumb">
+                <img  src="img/image2.jpg" onclick="showModel(this);" class="img-thumbnail "  alt="">
+               
+                    
+            </div>
+            
+            <div class="col-lg-4 col-md-4 col-xs-6 thumb">
+                    <img  src="img/image3.jpg" onclick="showModel(this);" class="img-thumbnail"  alt="">
+            </div>
+            
+             <div class="col-lg-4 col-md-4 col-xs-6 thumb">
+                    <img  src="img/image4.jpg" onclick="showModel(this);" class="img-thumbnail "  alt="">
+            </div>
+            
+             <div class="col-lg-4 col-md-4 col-xs-6 thumb">
+                    <img  src="img/image5.jpg" onclick="showModel(this);" class="img-thumbnail"  alt="">
+            </div>
+            
+            
+            
+             <div class="col-lg-4 col-md-4 col-xs-6 thumb">
+
+                    <img  src="img/image6.jpg" onclick="showModel(this);" class="img-thumbnail "  alt="">
+            </div>
+            
+            <div class="col-lg-4 col-md-4 col-xs-6 thumb">
+
+                    <img  src="img/image7.jpg" onclick="showModel(this);" class="img-thumbnail"  alt="">
+            </div>
+            <div class="col-lg-4 col-md-4 col-xs-6 thumb">
+
+                    <img  src="img/image8.jpg" onclick="showModel(this);" class="img-thumbnail "  alt="">
+            </div>
+            <div class="col-lg-4 col-md-4 col-xs-6 thumb">
+
+                    <img  src="img/image9.jpg" onclick="showModel(this);" class="img-thumbnail "  alt="">
+            </div>
+            <div class="col-lg-4 col-md-4 col-xs-6 thumb">
+
+                    <img  src="img/image10.jpg" onclick="showModel(this);" class="img-thumbnail"  alt="">
+            </div>
+            <div class="col-lg-4 col-md-4 col-xs-6 thumb">
+    
+                    <img  src="img/image11.jpg" onclick="showModel(this);" class="img-thumbnail "  alt="">
+            </div>
+            <div class="col-lg-4 col-md-4 col-xs-6 thumb">
+
+                    <img  src="img/image12.jpg" onclick="showModel(this);" class="img-thumbnail"  alt="">
+            </div>
+
+            <div class="col-lg-4 col-md-4 col-xs-6 thumb">
+    
+                    <img  src="img/image13.jpg" onclick="showModel(this);" class="img-thumbnail "  alt="">
+            </div>
+            <div class="col-lg-4 col-md-4 col-xs-6 thumb">
+
+                    <img  src="img/image14.jpg" onclick="showModel(this);" class="img-thumbnail"  alt="">
+            </div>
+            <div class="col-lg-4 col-md-4 col-xs-6 thumb">
+    
+                    <img  src="img/image15.jpg" onclick="showModel(this);" class="img-thumbnail "  alt="">
+            </div>
+           
+           <h2>+ Load More</h2>
+           
+</div>
+          <br/>
+           <div class="dropdown" style="margin-left: 42%;">
+            Showing &nbsp;
+  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Trending
+  </button>
+       </div>
+       <br/><br/>
+<hr class="rgba-white-light" style="margin: 0 15%;">
+     <!-- Footer -->
+<footer class="page-footer font-small indigo">
+
+  <!-- Footer Links -->
+  <div class="container">
+
+    <!-- Grid row-->
+    <div class="row text-center d-flex justify-content-center pt-5 mb-3">
+
+      <!-- Grid column -->
+      <div class="col-md-2 mb-3">
+        <h6 class=" font-weight-bold">
+          <a href="#!">About us </a>
+        </h6>
+      </div>
+      <!-- Grid column -->
+      <ul type="disk"><li></li></ul>
+      <!-- Grid column -->
+      <div class="col-md-2 mb-3">
+        <h6 class="font-weight-bold">
+          <a href="#!">Blog</a>
+        </h6>
+      </div>
+      <!-- Grid column -->
+<ul type="disk"><li></li></ul>
+      <!-- Grid column -->
+      <div class="col-md-2 mb-3">
+        <h6 class=" font-weight-bold">
+          <a href="#!">Contact Us</a>
+        </h6>
+      </div>
+      <!-- Grid column -->
+<ul type="disk"><li></li></ul>
+      <!-- Grid column -->
+      <div class="col-md-2 mb-3">
+        <h6 class=" font-weight-bold">
+          <a href="#!">FAQ</a>
+        </h6>
+      </div>
+      <!-- Grid column -->
+
+     
+
+    </div>
+    <!-- Grid row-->
+    
+
+    <!-- Grid row-->
+    <div class="row d-flex text-center justify-content-center mb-md-0 mb-4">
+
+      
+    </div>
+    <!-- Grid row-->
+    <hr class="clearfix d-md-none rgba-white-light" style="margin: 10% 15% 5%;">
+
+    <!-- Grid row-->
+    <div class="row pb-3">
+
+      <!-- Grid column -->
+ 
+
+  </div>
+  <!-- Footer Links -->
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">
+    <img src="img/logo2.PNG" alt="logo" title="Puppygram" />
+   Copyright 2020-
+    <a href="#"> Puppygram Inc.</a>
+  </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
+
+<!--Pop up Photo start-->
+<div id="PhotoModal1" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header" style="padding: 0px">
+        <img id="showImg" src="img/image1.jpg" alt="" width="100%" height="auto">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+      </div>
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-sm-8">
+              <h3>Title Here</h3>
+        <p>Description here should not be lorem ipsum.</p>
+          </div>
+          <div class="col-sm-4" style="border-left: solid black 1px">
+            <div class="row">
+              <div class="col-sm-4">
+                <img src="img/paw.PNG" height="50px;" alt="logo" />
+              </div>
+              <div class="col-sm-8">
+                <p>
+                    1,294
+                    <br/>
+                    Paw-fives
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+<!--Pop up Photo ends-->
+
+<div id="signupModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content" style="width: 128%;">
+      <div class="modal-header">
+        <h4 class="modal-title" style="margin: auto;"><strong>Upload your dog photo</strong></h4>
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        
+      </div>
+      <div class="modal-body">
+        <table class="table" border="0" cellpadding="5px">
+            <tr>
+                <td><label for="email" class="mr-sm-2">Upload a photo</label></td>
+                <td>
+                    <input id="uploadPhoto" type="file" onchange="uploadedImage(this);" >
+                    <button type="button" class="btn uploadButton" id="uploadBtn">Select Photo</button>
+                    <script type="text/javascript">
+                        const uploadFile = document.getElementById("uploadPhoto");
+                        const uploadBtn = document.getElementById("uploadBtn");
+                        uploadBtn.addEventListener("click",function(){
+                            uploadFile.click();
+                        });
+                    </script>
+                </td>
+                <td align="right"><img src="img/preview.PNG" style="border: solid grey 1px" id="uploadImage" height="60px" width="70px"></td>
+            </tr>
+            <tr>
+                <td><label for="pwd" class="mr-sm-2">Title</label></td>
+                <td colspan="2"><input type="password" class="inputBox form-control mb-2 mr-sm-2" placeholder="What bread is your dog" id="pwd"></td>
+            </tr>
+            <tr>
+                <td><label for="pwd" class="mr-sm-2">Description</label></td>
+                <td colspan="2"><textarea rows="5" class="inputBox form-control mb-2 mr-sm-2"></textarea></td>
+            </tr>
+            <tr>
+                <td><label for="pwd" class="mr-sm-2">Secret User ID </label></td>
+                <td colspan="2"><input type="password" class="inputBox form-control mb-2 mr-sm-2" placeholder="#########" id="pwd"></td>
+            </tr>
+            <tr>
+                <td colspan="3"><button type="submit" style="width: 100%;" class="btn btn-primary mb-2">Submit</button></td>
+            </tr>
+        </table>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+        function uploadedImage(input) {
+        if (input.files && input.files[0]) {
+            var reader = new FileReader();
+            reader.onload = function(e) {
+                $('#uploadImage').attr('src', e.target.result);
+                var img = document.getElementById("uploadImage");
+                img.style.display = 'block';
+            }
+            reader.readAsDataURL(input.files[0]);
+        }
+    }
+    function showModel(obj){
+        document.getElementById("showImg").src = obj.src;
+        document.getElementById("modalBtn").click();
+    }
+    </script>
+</script>
+<button id="modalBtn" type="button" data-toggle="modal" data-target="#PhotoModal1" hidden="hidden"></button>
+</body>
+</html>
